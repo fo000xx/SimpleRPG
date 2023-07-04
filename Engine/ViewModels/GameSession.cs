@@ -12,7 +12,7 @@ namespace Engine.ViewModels
         public Player CurrentPlayer { get; set; }
         public GameSession() 
         {
-            var CurrentPlayer = new Player();
+            CurrentPlayer = new Player();
             CurrentPlayer.Name = "Ben";
             CurrentPlayer.CharacterClass = "Fighter";
             CurrentPlayer.HitPoints = 10;
