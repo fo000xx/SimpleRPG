@@ -1,22 +1,22 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EngineModelsNS;
+using Engine.Models;
 using System.Numerics;
-using EngineViewModelsNS;
+using Engine.ViewModels;
 
-namespace EngineTest
+namespace Engine.Test
 {
     [TestClass]
     public class ModelTests
     {
         [TestMethod]
-        public void CreatePlayerObject()
+        public void CanCreatePlayerObject()
         {
             var player = new Player();
         }
 
         [TestMethod]
-        public void CreateGameSession()
+        public void CanCreateGameSession()
         {
             var session = new GameSession();
         }

@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EngineModelsNS;
+using Engine.Models;
 
-namespace EngineViewModelsNS
+namespace Engine.ViewModels
 {
     public class GameSession
     {
-        Player CurrentPlayer { get; set; }
+        public Player CurrentPlayer { get; set; }
         public GameSession() 
         {
             var CurrentPlayer = new Player();
             CurrentPlayer.Name = "Ben";
-            CurrentPlayer.Gold = 100000;
+            CurrentPlayer.CharacterClass = "Fighter";
+            CurrentPlayer.HitPoints = 10;
+            CurrentPlayer.ExperiencePoints = 0;
+            CurrentPlayer.Level = 1;
+            CurrentPlayer.Gold = 1000000;
         }
     }
 }
