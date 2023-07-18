@@ -6,7 +6,7 @@ This is a simple text based RPG, built as a learning exercise for C# and WPF. Us
 - [ ] TDD across the game
 - [ ] User can create a player
 	- [ ] User can select from different classes
-- [ ] Player can move to locations
+- [x] Player can move to locations
 - [ ] The location may have a monster
 - [ ] The player can fight the monster
 - [ ] If the player defeats the monster they receive:
